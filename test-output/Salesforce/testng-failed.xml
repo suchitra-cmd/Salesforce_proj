@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Salesforce]">
+  <test thread-count="5" name="smoketest(failed)">
+    <classes>
+      <class name="testSuite.Lead_opsRun">
+        <methods>
+          <include name="runScenario" invocation-numbers="2"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- testSuite.Lead_opsRun -->
+    </classes>
+  </test> <!-- smoketest(failed) -->
+</suite> <!-- Failed suite [Salesforce] -->

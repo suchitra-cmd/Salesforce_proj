@@ -6,11 +6,12 @@
   <name>name</name>
   <description>Salesforce</description>
   <dependencies>
-  <dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-java</artifactId>
-			<version>3.141.59</version>
-	</dependency>
+ 
+	<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.0.0-beta-3</version>
+</dependency>
 	<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-server</artifactId>
@@ -93,7 +94,13 @@
 			<groupId>io.cucumber</groupId>
 			<artifactId>gherkin</artifactId>
 			<version>16.0.0</version>
-		</dependency>	
+		</dependency>
+		<dependency>
+   		 <groupId>io.github.bonigarcia</groupId>
+    	<artifactId>webdrivermanager</artifactId>
+    	<version>4.0.0</version>
+	</dependency>
+			
 		
 		</dependencies>
 		<build>
@@ -114,7 +121,7 @@
 				<version>2.17</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/fb.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/Salesforce.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

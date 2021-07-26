@@ -1,0 +1,10 @@
+<suite name="Salesforce">
+<test name="smoketest">
+<classes>
+<class name="base.base"/>
+<class name="testSuite.Login_Run"/>
+<class name="testSuite.Lead_Run"/>
+<class name="testSuite.Lead_opsRun"/>
+ </classes>
+</test>
+</suite>
