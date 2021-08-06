@@ -62,6 +62,8 @@ public class LeadPage extends base{
 		Lead_Elements.lastName.sendKeys(lastname);
 		Lead_Elements.company.sendKeys(company);
 		
+		
+		
 	}
 	public void clickSave() throws Exception
 	{
