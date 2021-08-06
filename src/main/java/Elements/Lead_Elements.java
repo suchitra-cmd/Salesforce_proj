@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class Lead_Elements {
-	@FindBy(xpath="//span[text()='Leads']") public static WebElement leads;
+	@FindBy(xpath="//span[text()='Leads'][1]") public static WebElement leads;
 	@FindBy(xpath="//div[@title='New']") public static WebElement newLeadClick;
 	@FindBy(xpath="//h2[text()='New Lead']") public static WebElement newLeadHeading;
 	 
