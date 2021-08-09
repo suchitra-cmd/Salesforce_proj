@@ -11,9 +11,7 @@ public class LeadStep {
 	LeadPage lep=new LeadPage();
 	@Given("^user is on salesforce dashboard page$")
     public void user_is_on_salesforce_dashboard_page() throws Throwable {
-     
-	    
-	    
+     	    
     }
 
     @When("^click lead object and click New$")
